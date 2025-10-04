@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagesh Varma</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="logo">
+            <a href="#">Nagesh Varma</a>
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button id="theme-toggle" style="margin-left:20px;">
+            <i class="fas fa-moon"></i>
+        </button>
+    </nav>
+
+    <!-- hero-section -->
+    <section id="home" class="hero-section">
+        <div class="hero-image">
+            <div class="img">
+                <img src="./assets/varma.jpg" alt="Hero Image">
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/varmapalleti" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/nageshvarmapalleti/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/varma_palleti" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-info">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm <span>Nagesh Varma</span>, a passionate <span id="prog">web developer </span> based in India. Here, you'll
+                get a
+                glimpse of my journey in the
+                world of web
+                development, where creativity meets functionality.</p>
+            <a href="assets/Nagesh_varma_resume.pdf" target="_blank"><button>Resume</button></a>
+            <a href="https://github.com/varmapalleti?tab=repositories" target="_blank"><button>Projects</button></a>
+
+        </div>
+    </section>
+
+    <!-- education -->
+    <section id="education" class="education-section">
+        <h2>Education & Internships/Hackathon</h2>
+        <div class="edu-nav">
+            <button id="education-btn">Eduaction</button>
+            <button id="internship-btn">Internships</button>
+            <button id="hackathon-btn">Hackathon</button>
+        </div>
+        <div id="education-container" class="education">
+            <div class="education-container">
+                <div class="education-item">
+                    <h3>B.Tech in Computer Science and Engineering</h3>
+                    <h5>GIET RAJAHMUNDRY</h5>
+                    <p>Graduated: 2026</p>
+                </div>
+                <div class="education-item">
+                    <h3>Diploma in Computer Engineering</h3>
+                    <h5>Giet Polytechnic College</h5>
+                    <p>2020 - 2023</p>
+                </div>
+            </div>
+            <!-- Add more education items as needed -->
+        </div>
+        <div id="internship-container" class="internship">
+            <div class="internship-container">
+                <div class="internship-item">
+                    <h3>AI & ML</h3>
+                    <h5>AIMERS</h5>
+                    <p>May 2024 - July 2024</p>
+                    <p>
+                        Completed a comprehensive training program on AI and Machine Learning, gaining hands-on
+                        experience in building and deploying machine learning models.
+                    </p>
+                </div>
+                <div class="internship-item">
+                    <h3>Web Development Intern</h3>
+                    <h5>TechWing</h5>
+                    <p>June 2024 - December 2024</p>
+                    <p>Worked on developing responsive web applications using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="internship-item">
+                    <h3>Aws & Devops</h3>
+                    <h5>APSSDC</h5>
+                    <p>May 2025 - July 2025</p>
+                    <p>
+                        Completed a comprehensive training program on AWS and DevOps practices, gaining hands-on
+                        experience in cloud computing and continuous integration/continuous deployment (CI/CD)
+                        pipelines.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="hackathon-container" class="hackathon">
+            <div class="hackathon-container">
+                <div class="hackathon-item">
+                    <h3>IBM Hackathon</h3>
+                    <h5>IBM Expert Labs National Hackathon</h5>
+                    <p>Aug 2025</p>
+                    <p>
+                       Participated in the IBM Expert Labs National Hackathon, working continuously for 24 hours with a team to design and
+                        develop a File Duplicate Deletion Website. The solution efficiently identified and removed redundant files.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills -->
+    <section id="skills" class="skills-section">
+        <h2>MySkills</h2>
+        <p class="line">Here are some of the technologies I work with:</p>
+        <div class="skills-container">
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-python"></i>
+                <p>Python</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-java"></i>
+                <p>Java</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-database"></i>
+                <p>SQL</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- projects -->
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <img src="assets/jdbc.png" alt="Project 1">
+                <h3>JDBC</h3>
+                <p>Banking Management System.It performs CRUD operations</p>
+                <a href="https://github.com/varmapalleti/Banking-CRUD-operations/" target ="_blank"class="project-link">View Project</a>
+            </div>
+            <div class="project">
+                <img src="assets/portfolio.jpg" alt="Project 2">
+                <h3>PORTFOLIO</h3>
+                <p>showcase of my skills, projects, and achievements.</p>
+                <a href="https://github.com/varmapalleti/MyPortfolio" target="_blank" class="project-link">View Project</a>
+            </div>
+            <div class="project">
+                <img src="assets/quiz.png" alt="Project 2">
+                <h3>Quiz</h3>
+                <p>Basic programming quiz built with html, css and javascript</p>
+                <a href="https://github.com/varmapalleti/Quiz" target="_blank" class="project-link">View Project</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- certifications -->
+    <section id="certifications" class="certifications-section">
+        <h2>Certifications</h2>
+        <p class="line">Certificates & courses I've completed</p>
+    <div class="certifications-container">
+            <!-- Replace the href values below with the actual certificate files (e.g. assets/cert_ai_ml.pdf) -->
+            <a class="cert-link-card" href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS57S115540015904429107"
+             target="_blank" rel="noopener noreferrer">
+                <div class="certification">
+                    <h5>Programming in Java</h5>
+                </div>
+            </a>
+            <a class="cert-link-card" href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS18S53210008801325446" 
+            target="_blank" rel="noopener noreferrer">
+                <div class="certification">
+                 
+                    <h5>Database Management</h5>
+            
+                </div>
+            </a>
+            <a class="cert-link-card" href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS103S56220036404158612" 
+            target="_blank" rel="noopener noreferrer">
+                <div class="certification">
+                    <h5>Getting Started with competative programming</h5>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <div id="contact" class="contact-page">
+        <div class="contact-info">
+            <h2>Contact Information </h2>
+            <p>If you have any questions or would like to get in touch, feel free to reach out to me via email or
+                connect with me on social media.</p>
+            <div class="contact-details">
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:nageshvarmapalleti@gmail.com">nageshvarmapalletigmail.com</a>
+                </p>
+                <p>
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+919014919446">+91 9014919446</a>
+                </p>
+            </div>
+        </div>
+        <form id="contact-form">
+            <h2>Contact Form</h2>
+            <div class="form-group" style="display: flex; gap:10px;">
+                <div style="flex:1">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div style="flex:1">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <p style="text-align: left;">What you are Interested in ?</p>
+            <div class="form-group" style="display: flex; flex-direction: row; gap:10px;">
+                <input type="radio" id="webdev" name="interest" value="Web Development" required>
+                <label for="webdev">Web Development</label>
+                <input type="radio" id="aiml" name="interest" value="AI/ML">
+                <label for="aiml">AI/ML</label>
+                <input type="radio" id="devops" name="interest" value="DevOps">
+                <label for="devops">Backend</label>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div id="form-status" style="margin-bottom:10px;color:green;"></div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <p>&copy; 2025 Nagesh Varma Palleti. All rights reserved.</p>
+        <a href="#top" style="color: #03045e; margin-left: 20px; text-decoration: underline;">
+            <i class="fas fa-arrow-up"></i> Back to Top
+        </a>
+    </footer>
+
+    <!-- js functionality -->
+    <script>
+        // JavaScript to change the text content of the span with id "prog"
+        const progSpan = document.getElementById('prog');
+        const programmingLanguages = ['Programmer', 'Designer', 'Developer', 'Coder', 'Engineer'];
+        let index = 0;
+
+        function changeProgrammingLanguage() {
+            if (progSpan) progSpan.textContent = programmingLanguages[index];
+            index = (index + 1) % programmingLanguages.length;
+        }
+
+        setInterval(changeProgrammingLanguage, 2000); // Change every 2 seconds
+
+        // Education / Internship / Hackathon toggles
+        const educationButton = document.getElementById('education-btn') || document.querySelector('.edu-nav button:nth-child(1)');
+        const internshipButton = document.getElementById('internship-btn') || document.querySelector('.edu-nav button:nth-child(2)');
+        const hackathonButton = document.getElementById('hackathon-btn') || document.querySelector('.edu-nav button:nth-child(3)');
+
+        const educationContainer = document.getElementById('education-container');
+        const internshipContainer = document.getElementById('internship-container');
+        const hackathonContainer = document.getElementById('hackathon-container');
+
+        function showSection(section) {
+            // Helper to show one section and hide the others
+            if (educationContainer) educationContainer.style.display = (section === 'education') ? 'block' : 'none';
+            if (internshipContainer) internshipContainer.style.display = (section === 'internship') ? 'block' : 'none';
+            if (hackathonContainer) hackathonContainer.style.display = (section === 'hackathon') ? 'block' : 'none';
+        }
+
+        if (educationButton) {
+            educationButton.addEventListener('click', () => showSection('education'));
+        }
+        if (internshipButton) {
+            internshipButton.addEventListener('click', () => showSection('internship'));
+        }
+        if (hackathonButton) {
+            hackathonButton.addEventListener('click', () => showSection('hackathon'));
+        }
+
+        // Initially show education section and hide others (if present)
+        showSection('education');
+
+        // toggle code for themes
+        const themeToggle = document.getElementById('theme-toggle');
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                document.body.classList.toggle('dark-theme');
+                // Optionally, change icon
+                const icon = themeToggle.querySelector('i');
+                if (icon) {
+                    if (document.body.classList.contains('dark-theme')) {
+                        icon.classList.remove('fa-moon');
+                        icon.classList.add('fa-sun');
+                    } else {
+                        icon.classList.remove('fa-sun');
+                        icon.classList.add('fa-moon');
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
